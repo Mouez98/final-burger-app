@@ -5,7 +5,8 @@
     font-weight: bold;
     margin: auto;
     text-align: center;
-    overflow: scroll;
+    overflow-y: auto ;
+    margin-bottom: -50px;
 }
 
 @media (min-width: 500px) and (min-height: 400px) {

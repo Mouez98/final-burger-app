@@ -10,8 +10,22 @@
     top: 30%;
     box-sizing: border-box;
     transition: all 0.3s ease-out;
+    animation: Modal .5s ease-out;
   }
-  
+  @keyframes Modal {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+   
   @media (min-width: 600px) {
     .Modal {
       width: 500px;
